@@ -7,9 +7,9 @@ import java.util.ArrayList;
  *  Implementation of {@link Validator} interface.
  */
 public class ValidatorImpl implements Validator {
-    final byte STX = 0x02;
-    final byte ETX = 0x03;
-    final byte DLE = 0x10;
+    private final byte STX = 0x02;
+    private final byte ETX = 0x03;
+    private final byte DLE = 0x10;
 
     /**
      * Public no-argument constructor
