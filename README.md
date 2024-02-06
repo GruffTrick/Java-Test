@@ -3,6 +3,11 @@ A message validator that validates whether an array of byte code elements is in 
 Finds Start Text (STX) byte and End Text (ETX) byte then reads the data, using Data Link Escapes (DLEs) for reading in STX and ETX bytes as data.
 Then compares the value of data within the STX and ETX bytes to an LRC checksum value.
 
+## Running the Jar
+To run from command line use following command whilst in the same directory as the JAR file.
+```
+java -jar "Java-Test.jar"
+```
 
 ## To Do List:
 TODO: Implementation Here
