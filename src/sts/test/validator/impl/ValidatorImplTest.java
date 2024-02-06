@@ -72,7 +72,7 @@ class ValidatorImplTest {
     void testInvalidLRC() {
         Validator validator = new ValidatorImpl();
 
-        byte correctLrc = 0x14;
+        // correct LRC is 0x14;
 
         byte[] message = { 0x02, 0x10, 0x02, 0x0A, 0x10, 0x10, 0x07, 0x08, 0x03, 0x03 };
 
