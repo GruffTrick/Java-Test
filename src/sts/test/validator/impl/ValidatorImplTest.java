@@ -27,7 +27,7 @@ class ValidatorImplTest {
         lrc ^= (byte) 0x07;
         lrc ^= (byte) 0x08;
         lrc ^= (byte) 0x03;
-        System.out.println("LRC:" + lrc);
+        System.out.format("LRC: 0x%02X%n", lrc);
 
         byte[] message = { 0x02, 0x02, 0x0A, 0x10, 0x10, 0x07, 0x08, 0x03, lrc };
 
@@ -45,7 +45,7 @@ class ValidatorImplTest {
         lrc ^= (byte) 0x08;
         lrc ^= (byte) 0x03;
         lrc ^= (byte) 0x03;
-        System.out.println("LRC:" + lrc);
+        System.out.format("LRC: 0x%02X%n", lrc);
 
         byte[] message = { 0x02, 0x10, 0x02, 0x0A, 0x03, 0x08, 0x03, lrc };
 
@@ -61,7 +61,7 @@ class ValidatorImplTest {
         lrc ^= (byte) 0x0A;
         lrc ^= (byte) 0x08;
         lrc ^= (byte) 0x03;
-        System.out.println("LRC:" + lrc);
+        System.out.format("LRC: 0x%02X%n", lrc);
 
         byte[] message = { 0x02, 0x10, 0x02, 0x0A, 0x10, 0x08, 0x03, lrc };
 
