@@ -19,7 +19,7 @@ package sts.test.validator;
 /**
  * Implementations are capable of verifying whether a specific message is valid.
  */
-public interface Validator {
+public interface Validate {
 
   /**
    * Indicate if the given message is valid.

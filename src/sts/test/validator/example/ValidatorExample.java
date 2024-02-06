@@ -16,14 +16,14 @@
 
 package sts.test.validator.example;
 
-import sts.test.validator.Validator;
+import sts.test.validator.Validate;
 
 /**
- * Example implementation of {@link Validator}. Candidates may modify this class
+ * Example implementation of {@link Validate}. Candidates may modify this class
  * or write their own implementation.
  */
 public class ValidatorExample
-    implements Validator {
+    implements Validate {
 
   /* Note: the required no-argument constructor is implicitly defined if no
    * other constructors are provided */

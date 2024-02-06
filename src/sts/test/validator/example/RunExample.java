@@ -16,17 +16,17 @@
 
 package sts.test.validator.example;
 
-import sts.test.validator.Validator;
+import sts.test.validator.Validate;
 
 public class RunExample {
 
   public static void main(String[] arguments) {
 
-    Validator validator = new ValidatorExample();
+    Validate validate = new ValidatorExample();
 
     byte[] message =
         { 0x02, 0x10, 0x02, 0x0A, 0x10, 0x10, 0x07, 0x08, 0x03, 0x14 };
-    System.out.println("Message is valid: " + validator.isValid(message));
+    System.out.println("Message is valid: " + validate.isValid(message));
 
   }
 }
